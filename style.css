@@ -10,7 +10,7 @@ a:hover {
   color: black;
 }
 
-#demo .minibox {
+#first .minibox {
   font-size: 40px;
   color: #433ca8;
   height: 400px;
@@ -18,14 +18,14 @@ a:hover {
   border: solid #d0ceeb;
   transition: 2s;
 }
-#demo .minibox:hover {
+#first .minibox:hover {
   height: 100px;
   width: 470px;
   border: solid #645ebe;
   border-width: 10px;
 }
 @media (max-width: 600px) {
-  #demo .minibox {
+  #first .minibox {
     border: solid #7d77d3;
     border-width: 4px;
     font-size: 24px;
@@ -34,7 +34,7 @@ a:hover {
   }
 }
 @media (max-width: 400px) {
-  #demo .minibox {
+  #first .minibox {
     color: #ffffff;
     background-color: #7872cf;
     font-size: 16px;
