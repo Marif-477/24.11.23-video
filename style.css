@@ -10,17 +10,20 @@ a:hover {
   color: black;
 }
 
+#first {
+  margin-bottom: 100px;
+}
 #first .minibox {
   font-size: 40px;
   color: #433ca8;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   border: solid #d0ceeb;
   transition: 2s;
 }
 #first .minibox:hover {
-  height: 100px;
-  width: 470px;
+  height: 80px;
+  width: 370px;
   border: solid #645ebe;
   border-width: 10px;
 }
@@ -42,5 +45,52 @@ a:hover {
     width: 80px;
     border: solid #eb4a4a;
     border-width: 5px;
+  }
+}
+
+#second {
+  margin-bottom: 50px;
+}
+#second .minibox {
+  font-size: 32px;
+  color: #ffffff;
+  height: 100px;
+  width: 100px;
+  background-color: #cedaf9;
+  border: solid #0a1d3f;
+  border-width: 5px;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+#second .minibox:hover {
+  font-size: 40px;
+  height: 300px;
+  width: 300px;
+  border-color: #b1f0cf;
+}
+@media (max-width: 700px) {
+  #second .minibox {
+    height: 400px;
+    width: 400px;
+    background-color: #5572e3;
+    border-color: #5572e3;
+  }
+}
+
+#third {
+  margin-bottom: 50px;
+}
+#third .btn {
+  color: #ffffff;
+  height: 50px;
+  width: 150px;
+  background-color: #5977c8;
+  padding: 10px 0 0;
+  transition: 1s;
+}
+@media (max-width: 800px) {
+  #third .btn {
+    color: #000000;
+    background-color: #a91271;
   }
 }/*# sourceMappingURL=style.css.map */
