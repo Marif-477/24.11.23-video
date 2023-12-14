@@ -17,7 +17,6 @@ a:hover {
   width: 400px;
   border: solid #d0ceeb;
   transition: 2s;
-  transition-delay: 0.5s;
 }
 #demo .minibox:hover {
   height: 100px;
