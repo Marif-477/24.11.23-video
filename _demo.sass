@@ -2,18 +2,29 @@
     .minibox
         font-size: 40px
         color: #433ca8
-        height: 300px
-        width: 300px
+        height: 400px
+        width: 400px
         border: solid #d0ceeb
         transition: 2s
         transition-delay: 0.5s
         &:hover
-            height: 80px
-            width: 370px
+            height: 100px
+            width: 470px
             border: solid #645ebe
             border-width: 10px
     @media (max-width: 600px) 
+        .minibox 
+            border: solid #7d77d3
+            border-width: 4px
+            font-size: 24px
+            height: 150px
+            width: 150px
+    @media (max-width: 400px) 
         .minibox  
-            font-size: 8px
+            color: #ffffff
+            background-color: #7872cf
+            font-size: 16px
             height: 80px
             width: 80px
+            border: solid #eb4a4a
+            border-width: 5px
